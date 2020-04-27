@@ -1,0 +1,56 @@
+.carosel-div {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    image-rendering: pixelated;
+}
+
+.carosel-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.carosel-btn-div {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+}
+
+.carosel-info {
+    position: absolute;
+    top: 100px;
+    left: 10%;
+}
+
+.carosel-title {
+    color: rgb(151, 8, 108);
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.carosel-subtitle {
+    color: rgb(6, 116, 116);
+    font-size: 34px;
+}
+
+.carosel-btn-div-left {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.carosel-btn-div-right {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+}

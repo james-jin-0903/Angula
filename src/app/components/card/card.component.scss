@@ -1,0 +1,52 @@
+.card-body {
+    width: 230px;
+    height: 320px;
+    padding: 10px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.164);
+    margin: 15px;
+}
+
+.card-img {
+    width: 210px;
+    height: 120px;
+}
+
+.card-explain {
+    width: 210px;
+    height: 120px;
+    padding: 5px 15px 0 15px;
+}
+
+.card-btn-div {
+    width: 210px;
+    height: 70px;
+}
+
+h3, h5, p {
+    margin: 0;
+}
+
+button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.star-span:before {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    content: "\2605";
+    display: inline-block;
+    vertical-align: top;
+    color: #00bf8f
+}
+
+.star-span {
+    font-style: normal;
+    display: inline-block;
+    height: 12px;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    display: inline-block;
+    vertical-align: top;
+    color: #00bf8f;
+}

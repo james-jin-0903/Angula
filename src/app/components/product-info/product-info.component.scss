@@ -1,0 +1,20 @@
+.star-span:before {
+    font-size: 3rem;
+    line-height: 3rem;
+    content: "\2605";
+    display: inline-block;
+    vertical-align: top;
+    color: #00bf8f
+}
+
+.star-span {
+    font-style: normal;
+    display: inline-block;
+    width: 40px;
+    height: 12px;
+    font-size: 3rem;
+    line-height: 3rem;
+    display: inline-block;
+    vertical-align: top;
+    color: #00bf8f;
+}

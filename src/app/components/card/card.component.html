@@ -1,0 +1,16 @@
+<div class="card-body">
+    <div class="card-img">
+        <img src="{{productInfo.url}}" alt="image" width="100%" height="100%">
+    </div>
+    <div class="card-explain">
+        <h3>{{productInfo.productName | uppercase}}</h3>
+        <h5>$ {{productInfo.price}}<span class="star-span" *ngFor="let i of counter(productInfo.star)"></span></h5>
+        <p>
+            {{productInfo.about}}
+        </p>
+    </div>
+    <div class="card-btn-div">
+        <button><a routerLink="/store/{{productInfo.productName}}">About</a></button>
+        <button (click)="onaddProduct(productInfo.productName,productInfo.price)">Add to Bucket</button>
+    </div>
+</div>

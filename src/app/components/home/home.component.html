@@ -1,0 +1,6 @@
+<div style="height: 150px;">
+    <p>This is Tow way binding example!</p>
+    <input [(ngModel)]="testInput">
+    <p>Result:  used default pipe - uppercase <br>{{ testInput | uppercase }}</p>
+    <p>Result:  used customize pipe - removeSomeWord (skype) <br>{{ testInput | removeSomeWord }}</p>
+</div>

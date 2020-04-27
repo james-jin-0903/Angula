@@ -1,0 +1,28 @@
+.header-div {
+    width: auto;
+    height: 55px;
+    padding: 5px;
+    display: flex;
+    background-color: rgb(32, 58, 88);
+}
+
+span {
+    font-size: 20px;
+    color: white;
+    font-family: fantasy;
+    font-style: italic;
+}
+
+a {
+    height: 10px;
+    color: white;
+    font-size: 18px;
+    margin: auto 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(207, 238, 120);
+    font-weight: bold;
+    transition: .3s;
+}

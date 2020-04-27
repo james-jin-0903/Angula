@@ -1,0 +1,12 @@
+// $footerPos: calc(100vh - 50px);
+.footer-div {
+    // z-index: 10;
+    // position: fixed;
+    // top: $footerPos;
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    text-align: right;
+    background-color: rgb(32, 58, 88);
+}

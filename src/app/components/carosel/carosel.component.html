@@ -1,0 +1,19 @@
+<div class="carosel-div">
+    <div *ngFor="let item of caroselItems; let i = index;" class="carosel-item">
+        <img *ngIf="i === currentImg" [src]="item.url" alt="item.title" width="100%" @carouselAnimation>
+        <div class="carosel-info">
+            <p *ngIf="i === currentImg" class="carosel-title" @textAnimation>{{item.title}}</p>
+            <p *ngIf="i === currentImg" class="carosel-subtitle" @textAnimation>{{item.subtitle}}</p>
+        </div>
+        <div class="carosel-btn-div-left">
+            <img src="assets/arrow.svg" alt="before" (click)="before()" width="100%" height="100%" style="transform: rotate(180deg);"/>
+        </div>
+        <div class="carosel-btn-div-right">
+            <img src="assets/arrow.svg" alt="next" (click)="next()" width="100%" height="100%"/>
+        </div>
+    </div>
+</div>
+<!-- "https://cdn.pixabay.com/photo/2015/12/12/15/24/amsterdam-1089646_1280.jpg",
+"https://cdn.pixabay.com/photo/2016/02/17/23/03/usa-1206240_1280.jpg",
+"https://cdn.pixabay.com/photo/2015/05/15/14/27/eiffel-tower-768501_1280.jpg",
+"https://cdn.pixabay.com/photo/2016/12/04/19/30/berlin-cathedral-1882397_1280.jpg" -->
